@@ -1,0 +1,13 @@
+# OASIS_START
+# DO NOT EDIT (digest: a3f870ba68922c8b0fc772815397b34b)
+version = "1.0"
+description = "An Ocaml Binding for Selenium WebDriver."
+requires =
+"str lwt uri cohttp cohttp.lwt-core cohttp.lwt lwt.syntax containers"
+archive(byte) = "OSelenium.cma"
+archive(byte, plugin) = "OSelenium.cma"
+archive(native) = "OSelenium.cmxa"
+archive(native, plugin) = "OSelenium.cmxs"
+exists_if = "OSelenium.cma"
+# OASIS_STOP
+

@@ -1,0 +1,8 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: e0a42a15b85b4af9d0f6e7776b40fc26) *)
+
+Authors of OSelenium:
+
+* TobiasBora
+
+(* OASIS_STOP *)

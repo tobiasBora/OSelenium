@@ -1,0 +1,14 @@
+OASISFormat: 0.4
+Name:        OSelenium
+Version:     1.0
+Synopsis:    An Ocaml Binding for Selenium WebDriver.
+Authors:     TobiasBora
+License:     GPL-3.0
+Plugins:     META (0.4), StdFiles (0.4), DevFiles (0.4)
+
+Library "OSelenium"
+  Path:            src/OSelenium
+  BuildTools:      ocamlbuild
+  Modules:         OSelenium
+  BuildDepends:    str, lwt, uri, cohttp, cohttp.lwt-core, cohttp.lwt, lwt.syntax, containers
+  
